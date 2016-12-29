@@ -6,6 +6,7 @@
 ```   Objective-C
      [[LSEmitterManager shareInstancetype] showAnimationInView:self.view withAnimationStyle:LSAnimationStyleOfSnow];
 ```
-效果如下:
+
 ------
+效果如下:
 ![image](https://github.com/GeeLi/ParticleEmitter/blob/master/ParticleEmitterDemo/demo.gif )   
