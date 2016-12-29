@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		264C16691E14B5E0004DCD46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16681E14B5E0004DCD46 /* main.m */; };
+		264C166C1E14B5E0004DCD46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C166B1E14B5E0004DCD46 /* AppDelegate.m */; };
+		264C16721E14B5E0004DCD46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264C16701E14B5E0004DCD46 /* Main.storyboard */; };
+		264C16751E14B5E0004DCD46 /* ParticleEmitter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 264C16731E14B5E0004DCD46 /* ParticleEmitter.xcdatamodeld */; };
+		264C16771E14B5E0004DCD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264C16761E14B5E0004DCD46 /* Assets.xcassets */; };
+		264C167A1E14B5E0004DCD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264C16781E14B5E0004DCD46 /* LaunchScreen.storyboard */; };
+		264C16851E14B5E0004DCD46 /* ParticleEmitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16841E14B5E0004DCD46 /* ParticleEmitterTests.m */; };
+		264C16901E14B5E0004DCD46 /* ParticleEmitterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C168F1E14B5E0004DCD46 /* ParticleEmitterUITests.m */; };
+		264C16A71E14B807004DCD46 /* StyleChooseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16A61E14B807004DCD46 /* StyleChooseController.m */; };
+		264C16AA1E14C20B004DCD46 /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16A91E14C20B004DCD46 /* UIButton+Category.m */; };
+		264C16AC1E14D1D7004DCD46 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 264C16AB1E14D1D7004DCD46 /* snow.png */; };
+		264C16AF1E14D228004DCD46 /* BaseParticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16AE1E14D228004DCD46 /* BaseParticleCell.m */; };
+		264C16B21E14D364004DCD46 /* LSEmitterSnowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16B11E14D364004DCD46 /* LSEmitterSnowCell.m */; };
+		264C16B81E14D427004DCD46 /* LSEmitterRainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16B71E14D427004DCD46 /* LSEmitterRainCell.m */; };
+		264C16BA1E14D45E004DCD46 /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 264C16B91E14D45E004DCD46 /* leaves.png */; };
+		264C16BD1E14D471004DCD46 /* LSEmitterLeavesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16BC1E14D471004DCD46 /* LSEmitterLeavesCell.m */; };
+		264C16C01E14D577004DCD46 /* LSEmitterCustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16BF1E14D577004DCD46 /* LSEmitterCustomLayer.m */; };
+		264C16C31E14D829004DCD46 /* LSEmitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16C21E14D829004DCD46 /* LSEmitterManager.m */; };
+		264C16C51E14DA74004DCD46 /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 264C16C41E14DA74004DCD46 /* rain.png */; };
+		264C16C91E14EC6A004DCD46 /* UIImage+EXtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C16C81E14EC6A004DCD46 /* UIImage+EXtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264C16811E14B5E0004DCD46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264C165C1E14B5E0004DCD46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264C16631E14B5E0004DCD46;
+			remoteInfo = ParticleEmitter;
+		};
+		264C168C1E14B5E0004DCD46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264C165C1E14B5E0004DCD46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264C16631E14B5E0004DCD46;
+			remoteInfo = ParticleEmitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		264C16641E14B5E0004DCD46 /* ParticleEmitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleEmitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		264C16681E14B5E0004DCD46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		264C166A1E14B5E0004DCD46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		264C166B1E14B5E0004DCD46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		264C16711E14B5E0004DCD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		264C16741E14B5E0004DCD46 /* ParticleEmitter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParticleEmitter.xcdatamodel; sourceTree = "<group>"; };
+		264C16761E14B5E0004DCD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		264C16791E14B5E0004DCD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		264C167B1E14B5E0004DCD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264C16801E14B5E0004DCD46 /* ParticleEmitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleEmitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		264C16841E14B5E0004DCD46 /* ParticleEmitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleEmitterTests.m; sourceTree = "<group>"; };
+		264C16861E14B5E0004DCD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264C168B1E14B5E0004DCD46 /* ParticleEmitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleEmitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		264C168F1E14B5E0004DCD46 /* ParticleEmitterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleEmitterUITests.m; sourceTree = "<group>"; };
+		264C16911E14B5E0004DCD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264C16A51E14B807004DCD46 /* StyleChooseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleChooseController.h; sourceTree = "<group>"; };
+		264C16A61E14B807004DCD46 /* StyleChooseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleChooseController.m; sourceTree = "<group>"; };
+		264C16A81E14C20B004DCD46 /* UIButton+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
+		264C16A91E14C20B004DCD46 /* UIButton+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
+		264C16AB1E14D1D7004DCD46 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		264C16AD1E14D228004DCD46 /* BaseParticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseParticleCell.h; sourceTree = "<group>"; };
+		264C16AE1E14D228004DCD46 /* BaseParticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseParticleCell.m; sourceTree = "<group>"; };
+		264C16B01E14D364004DCD46 /* LSEmitterSnowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSEmitterSnowCell.h; sourceTree = "<group>"; };
+		264C16B11E14D364004DCD46 /* LSEmitterSnowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSEmitterSnowCell.m; sourceTree = "<group>"; };
+		264C16B61E14D427004DCD46 /* LSEmitterRainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSEmitterRainCell.h; sourceTree = "<group>"; };
+		264C16B71E14D427004DCD46 /* LSEmitterRainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSEmitterRainCell.m; sourceTree = "<group>"; };
+		264C16B91E14D45E004DCD46 /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
+		264C16BB1E14D471004DCD46 /* LSEmitterLeavesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSEmitterLeavesCell.h; sourceTree = "<group>"; };
+		264C16BC1E14D471004DCD46 /* LSEmitterLeavesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSEmitterLeavesCell.m; sourceTree = "<group>"; };
+		264C16BE1E14D577004DCD46 /* LSEmitterCustomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSEmitterCustomLayer.h; sourceTree = "<group>"; };
+		264C16BF1E14D577004DCD46 /* LSEmitterCustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSEmitterCustomLayer.m; sourceTree = "<group>"; };
+		264C16C11E14D829004DCD46 /* LSEmitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSEmitterManager.h; sourceTree = "<group>"; };
+		264C16C21E14D829004DCD46 /* LSEmitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSEmitterManager.m; sourceTree = "<group>"; };
+		264C16C41E14DA74004DCD46 /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		264C16C71E14EC6A004DCD46 /* UIImage+EXtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EXtension.h"; sourceTree = "<group>"; };
+		264C16C81E14EC6A004DCD46 /* UIImage+EXtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EXtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264C16611E14B5E0004DCD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264C167D1E14B5E0004DCD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264C16881E14B5E0004DCD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264C165B1E14B5E0004DCD46 = {
+			isa = PBXGroup;
+			children = (
+				264C16661E14B5E0004DCD46 /* ParticleEmitter */,
+				264C16831E14B5E0004DCD46 /* ParticleEmitterTests */,
+				264C168E1E14B5E0004DCD46 /* ParticleEmitterUITests */,
+				264C16651E14B5E0004DCD46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		264C16651E14B5E0004DCD46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264C16641E14B5E0004DCD46 /* ParticleEmitter.app */,
+				264C16801E14B5E0004DCD46 /* ParticleEmitterTests.xctest */,
+				264C168B1E14B5E0004DCD46 /* ParticleEmitterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264C16661E14B5E0004DCD46 /* ParticleEmitter */ = {
+			isa = PBXGroup;
+			children = (
+				264C169D1E14B789004DCD46 /* ParticleEmitter */,
+				264C166A1E14B5E0004DCD46 /* AppDelegate.h */,
+				264C166B1E14B5E0004DCD46 /* AppDelegate.m */,
+				264C16A51E14B807004DCD46 /* StyleChooseController.h */,
+				264C16A61E14B807004DCD46 /* StyleChooseController.m */,
+				264C16A81E14C20B004DCD46 /* UIButton+Category.h */,
+				264C16A91E14C20B004DCD46 /* UIButton+Category.m */,
+				264C16701E14B5E0004DCD46 /* Main.storyboard */,
+				264C16761E14B5E0004DCD46 /* Assets.xcassets */,
+				264C16781E14B5E0004DCD46 /* LaunchScreen.storyboard */,
+				264C167B1E14B5E0004DCD46 /* Info.plist */,
+				264C16731E14B5E0004DCD46 /* ParticleEmitter.xcdatamodeld */,
+				264C16671E14B5E0004DCD46 /* Supporting Files */,
+			);
+			path = ParticleEmitter;
+			sourceTree = "<group>";
+		};
+		264C16671E14B5E0004DCD46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				264C16681E14B5E0004DCD46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		264C16831E14B5E0004DCD46 /* ParticleEmitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				264C16841E14B5E0004DCD46 /* ParticleEmitterTests.m */,
+				264C16861E14B5E0004DCD46 /* Info.plist */,
+			);
+			path = ParticleEmitterTests;
+			sourceTree = "<group>";
+		};
+		264C168E1E14B5E0004DCD46 /* ParticleEmitterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				264C168F1E14B5E0004DCD46 /* ParticleEmitterUITests.m */,
+				264C16911E14B5E0004DCD46 /* Info.plist */,
+			);
+			path = ParticleEmitterUITests;
+			sourceTree = "<group>";
+		};
+		264C169D1E14B789004DCD46 /* ParticleEmitter */ = {
+			isa = PBXGroup;
+			children = (
+				264C16C61E14EC6A004DCD46 /* Category */,
+				264C169E1E14B789004DCD46 /* LSEmitterManager */,
+				264C169F1E14B789004DCD46 /* LSEmitterStyle */,
+			);
+			path = ParticleEmitter;
+			sourceTree = "<group>";
+		};
+		264C169E1E14B789004DCD46 /* LSEmitterManager */ = {
+			isa = PBXGroup;
+			children = (
+				264C16C11E14D829004DCD46 /* LSEmitterManager.h */,
+				264C16C21E14D829004DCD46 /* LSEmitterManager.m */,
+			);
+			path = LSEmitterManager;
+			sourceTree = "<group>";
+		};
+		264C169F1E14B789004DCD46 /* LSEmitterStyle */ = {
+			isa = PBXGroup;
+			children = (
+				264C16A01E14B789004DCD46 /* BaseParticle */,
+				264C16A11E14B789004DCD46 /* EmitterLayer */,
+				264C16A21E14B789004DCD46 /* leaves */,
+				264C16A31E14B789004DCD46 /* Rain */,
+				264C16A41E14B789004DCD46 /* Snow */,
+			);
+			path = LSEmitterStyle;
+			sourceTree = "<group>";
+		};
+		264C16A01E14B789004DCD46 /* BaseParticle */ = {
+			isa = PBXGroup;
+			children = (
+				264C16AD1E14D228004DCD46 /* BaseParticleCell.h */,
+				264C16AE1E14D228004DCD46 /* BaseParticleCell.m */,
+			);
+			path = BaseParticle;
+			sourceTree = "<group>";
+		};
+		264C16A11E14B789004DCD46 /* EmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				264C16BE1E14D577004DCD46 /* LSEmitterCustomLayer.h */,
+				264C16BF1E14D577004DCD46 /* LSEmitterCustomLayer.m */,
+			);
+			path = EmitterLayer;
+			sourceTree = "<group>";
+		};
+		264C16A21E14B789004DCD46 /* leaves */ = {
+			isa = PBXGroup;
+			children = (
+				264C16B91E14D45E004DCD46 /* leaves.png */,
+				264C16BB1E14D471004DCD46 /* LSEmitterLeavesCell.h */,
+				264C16BC1E14D471004DCD46 /* LSEmitterLeavesCell.m */,
+			);
+			path = leaves;
+			sourceTree = "<group>";
+		};
+		264C16A31E14B789004DCD46 /* Rain */ = {
+			isa = PBXGroup;
+			children = (
+				264C16C41E14DA74004DCD46 /* rain.png */,
+				264C16B61E14D427004DCD46 /* LSEmitterRainCell.h */,
+				264C16B71E14D427004DCD46 /* LSEmitterRainCell.m */,
+			);
+			path = Rain;
+			sourceTree = "<group>";
+		};
+		264C16A41E14B789004DCD46 /* Snow */ = {
+			isa = PBXGroup;
+			children = (
+				264C16AB1E14D1D7004DCD46 /* snow.png */,
+				264C16B01E14D364004DCD46 /* LSEmitterSnowCell.h */,
+				264C16B11E14D364004DCD46 /* LSEmitterSnowCell.m */,
+			);
+			path = Snow;
+			sourceTree = "<group>";
+		};
+		264C16C61E14EC6A004DCD46 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				264C16C71E14EC6A004DCD46 /* UIImage+EXtension.h */,
+				264C16C81E14EC6A004DCD46 /* UIImage+EXtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264C16631E14B5E0004DCD46 /* ParticleEmitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264C16941E14B5E0004DCD46 /* Build configuration list for PBXNativeTarget "ParticleEmitter" */;
+			buildPhases = (
+				264C16601E14B5E0004DCD46 /* Sources */,
+				264C16611E14B5E0004DCD46 /* Frameworks */,
+				264C16621E14B5E0004DCD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleEmitter;
+			productName = ParticleEmitter;
+			productReference = 264C16641E14B5E0004DCD46 /* ParticleEmitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		264C167F1E14B5E0004DCD46 /* ParticleEmitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264C16971E14B5E0004DCD46 /* Build configuration list for PBXNativeTarget "ParticleEmitterTests" */;
+			buildPhases = (
+				264C167C1E14B5E0004DCD46 /* Sources */,
+				264C167D1E14B5E0004DCD46 /* Frameworks */,
+				264C167E1E14B5E0004DCD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264C16821E14B5E0004DCD46 /* PBXTargetDependency */,
+			);
+			name = ParticleEmitterTests;
+			productName = ParticleEmitterTests;
+			productReference = 264C16801E14B5E0004DCD46 /* ParticleEmitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		264C168A1E14B5E0004DCD46 /* ParticleEmitterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264C169A1E14B5E0004DCD46 /* Build configuration list for PBXNativeTarget "ParticleEmitterUITests" */;
+			buildPhases = (
+				264C16871E14B5E0004DCD46 /* Sources */,
+				264C16881E14B5E0004DCD46 /* Frameworks */,
+				264C16891E14B5E0004DCD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264C168D1E14B5E0004DCD46 /* PBXTargetDependency */,
+			);
+			name = ParticleEmitterUITests;
+			productName = ParticleEmitterUITests;
+			productReference = 264C168B1E14B5E0004DCD46 /* ParticleEmitterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264C165C1E14B5E0004DCD46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Company;
+				TargetAttributes = {
+					264C16631E14B5E0004DCD46 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					264C167F1E14B5E0004DCD46 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 264C16631E14B5E0004DCD46;
+					};
+					264C168A1E14B5E0004DCD46 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 264C16631E14B5E0004DCD46;
+					};
+				};
+			};
+			buildConfigurationList = 264C165F1E14B5E0004DCD46 /* Build configuration list for PBXProject "ParticleEmitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264C165B1E14B5E0004DCD46;
+			productRefGroup = 264C16651E14B5E0004DCD46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264C16631E14B5E0004DCD46 /* ParticleEmitter */,
+				264C167F1E14B5E0004DCD46 /* ParticleEmitterTests */,
+				264C168A1E14B5E0004DCD46 /* ParticleEmitterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264C16621E14B5E0004DCD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264C167A1E14B5E0004DCD46 /* LaunchScreen.storyboard in Resources */,
+				264C16BA1E14D45E004DCD46 /* leaves.png in Resources */,
+				264C16771E14B5E0004DCD46 /* Assets.xcassets in Resources */,
+				264C16AC1E14D1D7004DCD46 /* snow.png in Resources */,
+				264C16721E14B5E0004DCD46 /* Main.storyboard in Resources */,
+				264C16C51E14DA74004DCD46 /* rain.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264C167E1E14B5E0004DCD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264C16891E14B5E0004DCD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264C16601E14B5E0004DCD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264C166C1E14B5E0004DCD46 /* AppDelegate.m in Sources */,
+				264C16BD1E14D471004DCD46 /* LSEmitterLeavesCell.m in Sources */,
+				264C16A71E14B807004DCD46 /* StyleChooseController.m in Sources */,
+				264C16C91E14EC6A004DCD46 /* UIImage+EXtension.m in Sources */,
+				264C16C01E14D577004DCD46 /* LSEmitterCustomLayer.m in Sources */,
+				264C16B81E14D427004DCD46 /* LSEmitterRainCell.m in Sources */,
+				264C16C31E14D829004DCD46 /* LSEmitterManager.m in Sources */,
+				264C16751E14B5E0004DCD46 /* ParticleEmitter.xcdatamodeld in Sources */,
+				264C16B21E14D364004DCD46 /* LSEmitterSnowCell.m in Sources */,
+				264C16691E14B5E0004DCD46 /* main.m in Sources */,
+				264C16AF1E14D228004DCD46 /* BaseParticleCell.m in Sources */,
+				264C16AA1E14C20B004DCD46 /* UIButton+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264C167C1E14B5E0004DCD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264C16851E14B5E0004DCD46 /* ParticleEmitterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264C16871E14B5E0004DCD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264C16901E14B5E0004DCD46 /* ParticleEmitterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		264C16821E14B5E0004DCD46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264C16631E14B5E0004DCD46 /* ParticleEmitter */;
+			targetProxy = 264C16811E14B5E0004DCD46 /* PBXContainerItemProxy */;
+		};
+		264C168D1E14B5E0004DCD46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264C16631E14B5E0004DCD46 /* ParticleEmitter */;
+			targetProxy = 264C168C1E14B5E0004DCD46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		264C16701E14B5E0004DCD46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264C16711E14B5E0004DCD46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		264C16781E14B5E0004DCD46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264C16791E14B5E0004DCD46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264C16921E14B5E0004DCD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		264C16931E14B5E0004DCD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264C16951E14B5E0004DCD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParticleEmitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.ParticleEmitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		264C16961E14B5E0004DCD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParticleEmitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.ParticleEmitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		264C16981E14B5E0004DCD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParticleEmitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.ParticleEmitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleEmitter.app/ParticleEmitter";
+			};
+			name = Debug;
+		};
+		264C16991E14B5E0004DCD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParticleEmitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.ParticleEmitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleEmitter.app/ParticleEmitter";
+			};
+			name = Release;
+		};
+		264C169B1E14B5E0004DCD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParticleEmitterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.ParticleEmitterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParticleEmitter;
+			};
+			name = Debug;
+		};
+		264C169C1E14B5E0004DCD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParticleEmitterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.ParticleEmitterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParticleEmitter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264C165F1E14B5E0004DCD46 /* Build configuration list for PBXProject "ParticleEmitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264C16921E14B5E0004DCD46 /* Debug */,
+				264C16931E14B5E0004DCD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264C16941E14B5E0004DCD46 /* Build configuration list for PBXNativeTarget "ParticleEmitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264C16951E14B5E0004DCD46 /* Debug */,
+				264C16961E14B5E0004DCD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264C16971E14B5E0004DCD46 /* Build configuration list for PBXNativeTarget "ParticleEmitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264C16981E14B5E0004DCD46 /* Debug */,
+				264C16991E14B5E0004DCD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264C169A1E14B5E0004DCD46 /* Build configuration list for PBXNativeTarget "ParticleEmitterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264C169B1E14B5E0004DCD46 /* Debug */,
+				264C169C1E14B5E0004DCD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		264C16731E14B5E0004DCD46 /* ParticleEmitter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				264C16741E14B5E0004DCD46 /* ParticleEmitter.xcdatamodel */,
+			);
+			currentVersion = 264C16741E14B5E0004DCD46 /* ParticleEmitter.xcdatamodel */;
+			path = ParticleEmitter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 264C165C1E14B5E0004DCD46 /* Project object */;
+}
